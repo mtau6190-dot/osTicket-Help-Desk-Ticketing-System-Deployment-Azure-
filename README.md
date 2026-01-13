@@ -95,6 +95,12 @@ This step prepares osTicket for installation and public access through IIS. In I
 <img width="604" height="167" alt="image" src="https://github.com/user-attachments/assets/77651994-91ff-4d33-85d9-06e8131916d2" />
 <img width="1807" height="881" alt="image" src="https://github.com/user-attachments/assets/ec11f0bc-6e61-4ced-ba59-db51a2e38c95" />
 
+<h2>osTicket Setup Outcome Summary:</h2>
+
+I successfully deployed osTicket on a Windows 11 VM in Azure, built a complete web-based help desk system from scratch. I installed and configured IIS, PHP, MySQL, and essential modules, then registered PHP with IIS and restarted the server to activate changes. I extracted osTicket files into the web root, renamed the folder for clean URL access, and launched the browser-based installer. I then renamed and configured the ost-config.php file with proper permissions, created a MySQL database using HeidiSQL, and completed the installation through the web interface.
+
+
+
 
 
 
