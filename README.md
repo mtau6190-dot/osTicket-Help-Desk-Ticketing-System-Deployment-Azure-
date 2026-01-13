@@ -2,54 +2,34 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>osTicket: Help Desk Ticketing System Deployment (Azure)</h1>
+In this project, I managed to set up and configure the osTicket help desk ticketing system inside my Azure lab environment. The goal was to demonstrate how IT teams manage support requests, streamline workflows, and enforce accountability using a centralized ticketing platform.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Languages/Tools: PowerShell, CMD, IIS, MySQL, PHP
+- Environments: Azure Virtual Machines, Windows Server 2022
+- Technologies/Services: IIS (Internet Information Services), MySQL, PHP, osTicket application
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11 Pro</b> (25H2)
 
-<h2>List of Prerequisites</h2>
+<h2>High-Level Deployment Steps</h2>
 
-- Item 1
+- Step 1: osTicket Setup
 - Item 2
 - Item 3
 - Item 4
 - Item 5
 
-<h2>Installation Steps</h2>
+<h2>Step 1: osTicket Setup</h2>
+<h3>Step 1.1 - Created a VM</h3>
+<p>
+<img width="606" height="240" alt="image" src="https://github.com/user-attachments/assets/cef71891-414a-459b-97bf-179e7f50ceb5" /><br>
+<img width="1515" height="683" alt="image" src="https://github.com/user-attachments/assets/373c3314-d01b-4d46-b1ce-1b4227498a35" />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+In Azure, I first created a Windows 11 VM and named it "osTicket-VM". I then
+logged into the VM via Remote Desktop.</p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
