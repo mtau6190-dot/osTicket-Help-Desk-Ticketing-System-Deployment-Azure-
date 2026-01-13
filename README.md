@@ -99,6 +99,8 @@ This step prepares osTicket for installation and public access through IIS. In I
 <img width="1807" height="887" alt="image" src="https://github.com/user-attachments/assets/97a8b639-3842-40b5-b654-c837e5acc106" />
 <img width="604" height="167" alt="image" src="https://github.com/user-attachments/assets/77651994-91ff-4d33-85d9-06e8131916d2" />
 <img width="1807" height="881" alt="image" src="https://github.com/user-attachments/assets/ec11f0bc-6e61-4ced-ba59-db51a2e38c95" />
+<img width="1816" height="616" alt="image" src="https://github.com/user-attachments/assets/29b3e48a-d8d6-419c-b0ac-cb6df9c462ee" />
+<P>The above image confirms that osTicket is fully installed and operational. I successfully logged in as an admin, viewed the ticket dashboard at localhost/osTicket/scp/index.php. The default ticket “osTicket Installed!” showed the system is working, ready to receive and manage support requests.</P>
 
 <h2>osTicket Setup Outcome Summary:</h2>
 
