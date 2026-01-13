@@ -40,3 +40,29 @@ logged into the VM via Remote Desktop.</p>
 Downloaded osTicket-Installation-Files.zip into the VM.<br>
 Unzipped it to the desktop → folder was named osTicket-Installation-Files<br>
 This folder contained all the dependencies I needed (PHP, MySQL, IIS modules, etc.).<br>
+
+<h3>1.3 - Installed IIS & CGI</h3>
+<p>
+<img width="817" height="553" alt="image" src="https://github.com/user-attachments/assets/0f46a18b-3878-41f4-bf64-5167178cf59d" /><br>
+I successfully enabled Internet Information Services (IIS) with the CGI feature on my Windows VM. This is a critical step for hosting osTicket, since CGI allows PHP scripts to run under IIS, enabling dynamic web functionality for the help desk system.</p>
+
+<h3>1.4 - Installed Dependencies</h3>
+<p>
+<img width="620" height="507" alt="image" src="https://github.com/user-attachments/assets/a5f2edeb-404f-4487-968d-31807b87bdbd" />
+<img width="612" height="478" alt="image" src="https://github.com/user-attachments/assets/e4394ea0-1683-4893-a299-29a2606cb962" />
+<img width="822" height="685" alt="image" src="https://github.com/user-attachments/assets/03a86edd-60d6-42ba-8150-d225fbb47106" />
+<img width="1292" height="673" alt="image" src="https://github.com/user-attachments/assets/fa3ee39b-bd5f-4b38-b98d-faa4cb4b1fda" />
+<img width="600" height="367" alt="image" src="https://github.com/user-attachments/assets/5ba4785d-c2e5-4d58-85c0-58e5c833a9e3" />
+<img width="615" height="481" alt="image" src="https://github.com/user-attachments/assets/a3d9b02a-1bc8-45f1-b2df-bda3558686eb" /><br>
+  
+Installed PHP Manager for IIS.<br>
+Installed IIS Rewrite Module.<br>
+Created directory C:\PHP.<br>
+Extracted PHP 7.3.8 into C:\PHP.<br>
+Installed VC_redist.x86.exe (runtime libraries).<br>
+Installed MySQL 5.5.62 → choose Typical Setup<br>
+
+Together, these form the web server + scripting + database stack that osTicket needs to operate. Successfully built the full backend for a help desk system.
+</p>
+
+<h3>1.4 - Configured IIS & PHP</h3>
