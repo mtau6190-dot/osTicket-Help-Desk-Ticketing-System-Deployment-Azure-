@@ -73,8 +73,34 @@ Together, these form the web server + scripting + database stack that osTicket n
 <h3>1.5 - Deployed osTicket</h3>
 <img width="1416" height="380" alt="image" src="https://github.com/user-attachments/assets/84d060dc-b212-4a49-be9d-754a5750beac" />
 <img width="503" height="337" alt="image" src="https://github.com/user-attachments/assets/3f731bfd-0ef8-4ab0-b478-ed70c302bc79" />
+<img width="1706" height="521" alt="image" src="https://github.com/user-attachments/assets/721b3ca1-fc40-4bb7-9053-8f1497f32e98" />
 
 <p>From the osTicket installation folder, unzipped "osTicket-v1.15.8.zip" and copied the "Upload" folder into "c:\inetpub\wwwroot". Then within the folder, I renamed the "upload" folder to "osTicket".
-This step prepares osTicket for installation and public access through IIS.</p>
+This step prepares osTicket for installation and public access through IIS. In IIS → Sites → Default → osTicket → click *Browse :80 to open in browser. This confirms that osTicket is successfully hosted on my IIS web server and ready for browser-based installation. By browsing to http://localhost/osTicket/setup/, I launched the installer, which checked prerequisites and guided me through final configuration. This step proves my IIS, PHP, and file setup are working.</p>
+
+<h3>1.6 - Configured osTicket</h3>
+<img width="1030" height="597" alt="image" src="https://github.com/user-attachments/assets/70cc7f62-d1ed-4d9b-8caf-cd8f5fca47b7" />
+<img width="833" height="557" alt="image" src="https://github.com/user-attachments/assets/b9a512c2-b95a-4b27-b4a0-272e73f886ad" />
+<img width="1580" height="756" alt="image" src="https://github.com/user-attachments/assets/53234072-a7b8-4824-b928-cbb9356e0d3b" />
+
+<P>I renamed ost-sampleconfig.php to ost-config.php because osTicket needs an active configuration file to store its settings. Permissions are temporarily set to Full Control so the installer can write those settings during setup. In the browser, naming your helpdesk and setting a default email establishes its identity and ensures customer requests can be received and converted into tickets. These steps finalize installation and make osTicket functional.</P>
+
+<h3>1.7 - Database Setup</h3>
+<img width="693" height="565" alt="image" src="https://github.com/user-attachments/assets/62c21ac7-36cf-4618-8c46-4e22d287b632" />
+<img width="1188" height="716" alt="image" src="https://github.com/user-attachments/assets/a360802e-2561-475e-88cb-342af9c6aea7" />
+<p>I installed HeidiSQL to manage the MySQL database easily. By creating a session with the root/root credentials and then making a database called osTicket, I prepared the storage backend where all ticket data, users, and system settings will be saved. This database is what osTicket connects to during installation so it can function properly.</p>
+
+<h3>1.7 - Successfully Installed osTicket with their URLs for the Admins and Users</h3>
+<img width="1807" height="887" alt="image" src="https://github.com/user-attachments/assets/97a8b639-3842-40b5-b654-c837e5acc106" />
+<img width="604" height="167" alt="image" src="https://github.com/user-attachments/assets/77651994-91ff-4d33-85d9-06e8131916d2" />
+<img width="1807" height="881" alt="image" src="https://github.com/user-attachments/assets/ec11f0bc-6e61-4ced-ba59-db51a2e38c95" />
+
+
+
+
+
+
+
+
 
 
