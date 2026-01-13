@@ -66,3 +66,15 @@ Together, these form the web server + scripting + database stack that osTicket n
 </p>
 
 <h3>1.4 - Configured IIS & PHP</h3>
+<img width="1173" height="485" alt="image" src="https://github.com/user-attachments/assets/fb9ea7b1-a43a-47b2-b906-9eccad430538" />
+<p>Registered C:\PHP\php-cgi.exe in IIS to tell the web server how to process PHP files. This step connects IIS to the PHP engine, so it can run osTicket’s scripts. Restarted IIS afterward reloads the server with this new configuration, ensuring PHP is active and ready to serve osTicket pages. Without this, PHP won’t execute and the site won’t work.
+</p>
+
+<h3>1.5 - Deployed osTicket</h3>
+<img width="1416" height="380" alt="image" src="https://github.com/user-attachments/assets/84d060dc-b212-4a49-be9d-754a5750beac" />
+<img width="503" height="337" alt="image" src="https://github.com/user-attachments/assets/3f731bfd-0ef8-4ab0-b478-ed70c302bc79" />
+
+<p>From the osTicket installation folder, unzipped "osTicket-v1.15.8.zip" and copied the "Upload" folder into "c:\inetpub\wwwroot". Then within the folder, I renamed the "upload" folder to "osTicket".
+This step prepares osTicket for installation and public access through IIS.</p>
+
+
